@@ -169,3 +169,21 @@ nav ul li a:hover {
 .customers-col img:hover {
     transform: translateY(-10px);
 }
+.about {
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+    margin: 120px 0;
+}
+.about h2 {
+    color: #535353;
+    font-weight: 500;
+    font-size: 30px;
+    margin: 60px 0;
+    text-align: center;
+}
+.about p {
+    color: #535353;
+    font-size: 17px;
+    line-height: 30px;
+}
