@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(219, 62, 62, 0.4)),url(media/background.png);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
