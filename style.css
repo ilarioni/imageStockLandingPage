@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body {
+    font-family: 'Poppins', sans-serif;
+}
 .hero {
     background: linear-gradient(rgba(0,0,0,0.4),rgba(219, 62, 62, 0.4)),url(media/background.png);
     height: 100vh;
@@ -17,4 +20,35 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding-top: 20px;
+}
+.logo {
+    width: 110px;
+}
+nav ul {
+    flex: 1;
+    text-align: right;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 25px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: #ff5361;
+}
+.upload-btn {
+    background-color: #ff5361;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 30px;
+    margin-left: 25px;
+    transition: transform 0.5s;
+}
+.upload-btn:hover{
+    transform: scale(0.9);
 }
