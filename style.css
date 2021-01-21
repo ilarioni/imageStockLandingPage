@@ -88,3 +88,35 @@ nav ul li a:hover {
 .content a:hover{
     color: #ff5361;
 }
+.gallery {
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+    margin: 40px 0;
+}
+.gallery h2 {
+    color: #535353;
+    font-weight: 500;
+    font-size: 26px;
+    margin: 20px 12px;
+}
+.masonary {
+    display: flex;
+    flex-flow: column wrap;
+    max-height: 1500px; 
+    margin: auto;
+    width: 100%;
+}
+.m-block {
+    width: 33.33%;
+    padding: 12px;
+    box-sizing: border-box;
+}
+.m-block img {
+    width: 100%;
+    cursor: pointer;
+    transition: transform 1s;
+}
+.m-block img:hover{
+    transform: scale(1.05);
+}
