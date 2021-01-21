@@ -52,3 +52,39 @@ nav ul li a:hover {
 .upload-btn:hover{
     transform: scale(0.9);
 }
+.content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+.content h1 {
+    font-size: 52px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.content input {
+    width: 90%;
+    max-width: 640px;
+    height: 55px;
+    border-radius: 30px;
+    border: none;
+    padding: 0 30px;
+    outline: none;
+    margin: 20px 0;
+    font-size: 16px;
+}
+::placeholder {
+     font-weight: 500;
+     font-size: 16px;
+}
+.content a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+.content a:hover{
+    color: #ff5361;
+}
