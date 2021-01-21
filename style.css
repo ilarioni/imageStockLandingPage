@@ -187,3 +187,12 @@ nav ul li a:hover {
     font-size: 17px;
     line-height: 30px;
 }
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    background: #ebebeb;
+    color: #535353;
+    font-size: 17px;
+}
